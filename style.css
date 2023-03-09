@@ -40,6 +40,11 @@
     width: 40px;
 
 }
+
+.sidebar-nav > ul,
+.sidebar-contacts > ul {
+    list-style-type: none;
+}
 .main-content {
     grid-column: 2/3;
 
