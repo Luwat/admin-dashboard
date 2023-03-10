@@ -71,13 +71,15 @@
     grid-column: 2/3;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    background-color: #cbd5e1;    
+    padding: 20px 10px;
+    background-color: #cbd5e1;   
 }
 
 .projects .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 10px;
+    justify-items: center;
 }
 
 .card {
@@ -87,4 +89,29 @@
     border-left: 8px solid #84cc16;
     border-radius: 5px;
     box-shadow: 2px 2px 2px #727575;
+}
+
+.contents,
+.trends {
+    background-color: #f0f9ff;
+    padding: 15px;
+    margin: 8px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #727575;
+    width: 300px;
+    height: 350px;
+}
+
+.content {
+    padding: 10px 10px 20px 10px;
+    margin: 10px;
+}
+
+.line {
+    border-bottom: 1px solid #9ca3af;
+}
+
+.content-para {
+    color: #727575;
+    font-size: small;
 }
