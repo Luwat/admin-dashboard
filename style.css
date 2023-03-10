@@ -69,6 +69,22 @@
 }
 .main-content {
     grid-column: 2/3;
-
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     background-color: #cbd5e1;    
+}
+
+.projects .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+}
+
+.card {
+    background-color: #f0f9ff;
+    padding: 15px;
+    margin: 8px;
+    border-left: 8px solid #84cc16;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #727575;
 }
