@@ -33,7 +33,7 @@
 }
 
 input[type="search"] {
-    width: 20rem;
+    width: 80%;
     height: 1.5rem;
     background-color: #9ca3af;
     border: none;
@@ -53,8 +53,19 @@ input[type="search"] {
 .nav-link {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
+    gap: 25px;
+    text-align: center;
     list-style: none;
+}
+
+.nav-link > li {
+    border-radius: 20px;
+    background-color: #3b82f6;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    padding-top: 9px;
+    cursor: pointer;
 }
 
 .sidebar {
