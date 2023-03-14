@@ -42,7 +42,7 @@ input[type="search"] {
 
 .right-nav {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .bottom {
@@ -50,6 +50,10 @@ input[type="search"] {
     grid-template-columns: 2fr 1fr;
 }
 
+.left-header {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
 .nav-link {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
